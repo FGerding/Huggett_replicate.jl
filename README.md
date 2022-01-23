@@ -25,3 +25,5 @@ Then you are able to use this package by typing (back in Julia mode)
 The package exports all values needed to replicate the paper into the user's Environment, while the file Graphs.jl plots the two figures of the paper.
 
 The online documentation can be found [here](https://FGerding.github.io/Huggett_replicate.jl/dev/)
+
+The paper we replicated can be found [here](https://www.sciencedirect.com/science/article/abs/pii/S002205311100055X)
