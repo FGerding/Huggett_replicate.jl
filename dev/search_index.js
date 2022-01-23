@@ -1,0 +1,3 @@
+var documenterSearchIndex = {"docs":
+[{"location":"#My-Replication-of-xyz","page":"My Replication of xyz","title":"My Replication of xyz","text":"","category":"section"},{"location":"","page":"My Replication of xyz","title":"My Replication of xyz","text":"This replication study was part of my evaluation for the course Numerical Methods at SciencesPo Paris in Spring 2021","category":"page"},{"location":"","page":"My Replication of xyz","title":"My Replication of xyz","text":"In this replication study, we do ...","category":"page"},{"location":"","page":"My Replication of xyz","title":"My Replication of xyz","text":"Modules = [Huggett]","category":"page"},{"location":"","page":"My Replication of xyz","title":"My Replication of xyz","text":"end","category":"page"}]
+}
