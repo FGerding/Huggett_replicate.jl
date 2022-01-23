@@ -6,7 +6,7 @@
 
 To install this package, please clone [this repository](https://github.com/FGerding/Huggett_replicate.jl) to your local files.To do this, type in your terminal:
 
-    git clone https://github.com/FGerding/Hugget_replicate.jl Hugget_replicate
+    git clone https://github.com/FGerding/Huggett_replicate.jl Hugget_replicate
 
 ## Load this package
 
