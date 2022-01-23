@@ -7,7 +7,7 @@ using Plots
 using GeometryTypes
 using QuantEcon
 
-export AssetGrid, crra, initguess, next_guess, household, lambda
+export AssetGrid, crra, initguess, next_guess, household, lambda, eD
 
 
 mutable struct interest ; max::Float64; min::Float64; r::Float64 ; end 
