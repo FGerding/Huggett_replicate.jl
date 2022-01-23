@@ -17,5 +17,3 @@ household
 lambda
 eD
 ```
-
-end
