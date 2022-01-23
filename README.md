@@ -6,7 +6,7 @@
 
 To install this package, please clone [this repository](https://github.com/FGerding/Huggett_replicate.jl) to your local files.To do this, type in your terminal:
 
-git clone https://github.com/FGerding/Hugget_replicate.jl Hugget_replicate
+    git clone https://github.com/FGerding/Hugget_replicate.jl Hugget_replicate
 
 ## Load this package
 
@@ -23,3 +23,5 @@ Then you are able to use this package by typing (back in Julia mode)
 ## Use the package
 
 The package exports all values needed to replicate the paper into the user's Environment, while the file Graphs.jl plots the two figures of the paper.
+
+The online documentation can be found [here](https://github.com/FGerding/Huggett_replicate.jl/dev/):
