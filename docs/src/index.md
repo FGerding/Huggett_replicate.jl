@@ -4,9 +4,7 @@
 
 In this replication study, we do ...
 
-```@autodocs
-Modules = [Huggett]
-```
+
 ```@docs
 AssetGrid
 ```
