@@ -2,6 +2,24 @@
 
 [![](https://img.shields.io/badge/docs-dev-blue.svg)](https://fgerding.github.io/Huggett_replicate.jl/dev/)
 
-<img src="https://github.com/FGerding/Huggett_replicate.jl/docs/graph_1.png" width=50% height=50%>
-![50x50](/docs/graph_1.png)
-`edit`
+## Installation
+
+To install this package, please clone [this repository](https://github.com/FGerding/Hugget_replicate.jl) to your local files.To do this, type in your terminal:
+
+git clone https://github.com/FGerding/Hugget_replicate.jl Hugget_replicate
+
+## Load this package
+
+Start up Julia. Then, in package mode, activate a new environment and install all necessary dependencies for Hugget_replicate by typing
+
+    activate .
+    instantiate 
+
+Then you are able to use this package by typing (back in Julia mode)
+    
+    using Hugget_replicate
+
+
+## Use the package
+
+The package exports all values needed to replicate the paper into the user's Environment, while the file Graphs.jl plots the two figures of the paper.
