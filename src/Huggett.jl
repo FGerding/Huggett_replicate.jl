@@ -55,7 +55,7 @@ export interest, β, σ, borrow, itmx_m, tol_v, tol_m, itmx_v, vmin, eps_clear, 
     sig_seq = sort(unique(Iterators.flatten((range(0,10,length=20)))))
 	q_star = sort(unique(Iterators.flatten((range(0,10,length=20)))))
 	q_star_0 = sort(unique(Iterators.flatten((range(0,10,length=20)))))
-end 
+
 
 """
 Just a test
@@ -157,4 +157,5 @@ function eD(pol_new,lambda, borrow)
                     
                 A = AssetGrid(borrow)[pol_new]' * lambda
                 dA = A
+end
 end
