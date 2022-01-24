@@ -48,7 +48,7 @@ end
 begin
     for i in 1:length(sig_seq) 		
         # instead of our parameter choices, plug in directly values used in the paper to 			create the plots
-            q_star_0[i] = (0.98*( 0.9+(1- 0.9)(1.08)^sig_seq[i]))(1.01^(-sig_seq[i]))
+            q_star_0[i] = (0.98*( 0.9+(1- 0.9)*(1.08)^sig_seq[i]))*(1.01^(-sig_seq[i]))
             q_star[i] = 0.98*(1.01^(-sig_seq[i])) 
     end
     #Replicating the second plot
