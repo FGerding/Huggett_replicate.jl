@@ -4,7 +4,7 @@ using Plots
 using GeometryTypes
 using QuantEcon
 
-using Hugget
+using Huggett
 
 begin
         for i in 1:length(q)
