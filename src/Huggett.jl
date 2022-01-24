@@ -70,7 +70,7 @@ The maximum number of assets a_max = 24 and the number of assets na=500 have bee
 
 # Outputs:
 
-- Column vector of dimension na of type Matrix{Float64}
+- Column vector of dimension na of type Vector{Float64}
 """
 function AssetGrid(borrow)
 	
@@ -116,7 +116,7 @@ Computes an initial guess for the Value Function to start the Value Function Ite
 
 # Inputs:
 
-- `r::interest`: the interest rate used to use to solve the household’s problem.
+- `r::interest`: the interest rate used to solve the household’s problem.
 - `borrow::Float64` : the borrowing constraint level to be specified by the user.
 
 # Outputs:
@@ -179,7 +179,7 @@ end
 `function household(v,r, borrow)`
 
 
-Implements the VFI iteration procedure in order to solve the household problem of the Huggett economy for a given interest rate `r` and given a level of borrowing constraint borrow. The Value function obtained from   the function `initguess` is used as an input, serving as the initial guess in the VFI procedure. Furthermore, the function calls next guess at the end of each step of the VFI procedure: in this way Howard’s improvement algorithm is used in order to obtain the next guess of the VFI procedure. 
+Implements the VFI iteration procedure in order to solve the household problem of the Huggett economy for a given interest rate `r` and a given borrowing constraint. The Value function obtained from   the function `initguess` is used as an input, serving as the initial guess in the VFI procedure. Furthermore, the function calls `next_guess` at the end of each step of the VFI procedure: in this way Howard’s improvement algorithm is used to obtain the next guess of the VFI procedure. 
 
 # Inputs: 
 
@@ -251,7 +251,7 @@ end
 `function eD(pol_new,lambda, borrow)`
 
 
-This function retrieves the amount of excess demand in the economy given the Policy Function, the asset’s stationary distribution and the level of borrowing constraints. Stated in an equivalent way, given any level of interest rate `r` this function takes the policy function coming from the `household` function, and the induced stationary distribution of assets coming from the `lambda` function in order to compute the excess demand of the considered Huggett economy (with level of borrowing constraint borrow).
+This function retrieves the excess demand in the Hugget's economy given the Policy Function, the asset’s stationary distribution and the level of borrowing constraints. Stated in an equivalent way, given any level of interest rate `r` this function takes the policy function coming from the `household` function, and the induced stationary distribution of assets coming from the `lambda` function in order to compute the excess demand of the considered Huggett economy (with level of borrowing constraint borrow).
 
 # Inputs:
 
@@ -261,7 +261,7 @@ This function retrieves the amount of excess demand in the economy given the Pol
 
 # Outputs:
 
-- A scalar of type Float64 indicating the excess demand in the considered Huggett economy. Notice that if excess demand = 0 then we the interest rate which delivers pol_new as a policy function is the general equilibrium interest rate!
+- A scalar of type Float64 indicating the excess demand in the considered Huggett economy. Notice that if excess demand = 0 then the interest rate which delivers pol_new as a policy function is the general equilibrium interest rate!
 """
 function eD(pol_new,lambda, borrow)
 
