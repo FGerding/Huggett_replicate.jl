@@ -26,7 +26,7 @@ The package exports all values needed to replicate the paper into the user's Env
 In order to reproduce Figures 1 and 2 of the paper you should:
 
 1) Run the Huggett.jl file which loads all the values necessary for the replication and the necessary functions.
-2) Run import Pkg; Pkg.add("Hugget")
+2) Run: import Pkg; Pkg.add("Huggett")
 3) Run the graph.jl file which gives Figures 1 and 2!
 
 
