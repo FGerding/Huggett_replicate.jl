@@ -23,6 +23,13 @@ Then you are able to use this package by typing (back in Julia mode)
 ## Use the package
 
 The package exports all values needed to replicate the paper into the user's Environment, while the file Graphs.jl plots the two figures of the paper.
+In order to reproduce Figures 1 and 2 of the paper you should:
+
+1) Run the Huggett.jl file which loads all the values necessary for the replication and the necessary functions.
+2) Run the graph.jl file which gives Figures 1 and 2!
+
+
+## External documentation
 
 The online documentation can be found [here](https://FGerding.github.io/Huggett_replicate.jl/dev/)
 
